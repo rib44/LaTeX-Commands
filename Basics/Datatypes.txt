@@ -5,15 +5,8 @@ proc	conference proceedings
 book	For book
 slides	
 
-	• Basic document type:
+
 	
-	\documentclass{article}
-	\title{LaTeX Document}
-	\author{Achyut}
-	\date{\today}
-	\begin{document}
-		\maketitle
-		Content.....
 
 
 
