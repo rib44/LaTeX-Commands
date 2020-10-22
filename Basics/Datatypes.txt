@@ -1,0 +1,16 @@
+Types of documents
+article	For short document such as journal, articles and short reports
+report 	longer documents with chapters e.g. PhD thesis
+proc	conference proceedings
+book	For book
+slides	
+
+
+	
+
+
+
+
+Title 	\title{Creating firsst documet in /LaTeX}
+Author	\author{Achyut}
+Date	\date{\today}
