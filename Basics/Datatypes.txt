@@ -11,6 +11,3 @@ slides
 
 
 
-Title 	\title{Creating firsst documet in /LaTeX}
-Author	\author{Achyut}
-Date	\date{\today}
