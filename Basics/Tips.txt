@@ -1,0 +1,19 @@
+===>	If you don't want a name of a chapter/topic to be included in the tableofcontents, simply write '*' after declaring it.
+Eg. 	\chapter*{Preface}
+
+
+
+===>	To move to next page use:
+	\pagebreak
+
+
+===>	To use filler text "lorem ipsum", import package '\usepackage{lipsum}'
+And to print text use "\lipsum[1-4]", it prints out the first four paragraphs of the the filler text.
+
+
+===>	A comment starts with '%' sign
+Eg.	% This is a comment 
+
+
+===>     lipsum[1-1], it means first paragraph of lipsum filler text
+	Do note that lipsum provides 150 paragraphs, hence the maximum limit should be 150.
