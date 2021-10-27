@@ -1,0 +1,10 @@
+1. geometry 
+    a. Inner 
+    b. Outer 
+    c. Top 
+    d. Bottom 
+ 2. pdfscape 
+ 3. Multicol 
+ 4. [dvsipnames]xcolor 
+ 5. Setspace 
+ 6. Amsmath
