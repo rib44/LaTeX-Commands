@@ -17,3 +17,13 @@ Eg.	% This is a comment
 
 ===>     lipsum[1-1], it means first paragraph of lipsum filler text
 	Do note that lipsum provides 150 paragraphs, hence the maximum limit should be 150.
+	
+	
+Tips and Mistakes:-	
+===>Always see for the error message and see the page number 
+     
+==> We can temporarily end the document earlier so that we could limit our field of vision and after rectifying it, we can again remove the temporary stop point. 
+    For this, select a small section to find the error and temporarily close the document by using '\end{document}' 
+
+==>Due to this, the small section would only run and we could easily rectify the errors in that small snippet, after which remove the 'end{document}' and use it appropriately to 	find further errors.
+
