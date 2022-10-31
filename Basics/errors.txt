@@ -1,0 +1,47 @@
+Alignment
+Misplaced alignment tab character &
+Extra alignment tab has been changed to \cr.
+Double subscript
+Double subscript
+Missing Math mode characters
+Display math should end with $$
+Missing $ inserted
+References
+There were undefined references
+Reference XXX on page XXX undefined on input line XXX
+Labeling
+There were multiply-defined labels.
+Label XXX multiply defined.
+Float specifiers
+`!h' float specifier changed to `!ht'.
+`h' float specifier changed to `ht'."
+No positions in optional float specifier."
+Undefined control sequences
+Undefined control sequence.
+File not found
+File XXX not found on input line XXX."
+LaTeX Error: File XXX not found."
+Package pdftex.def Error: File XXX not found."
+Missing number/illegal units of measure
+Missing number, treated as zero
+Illegal unit of measure (pt inserted)
+Environment undefined (missing package)
+LaTeX Error: Environment tikzpicture undefined
+LaTeX Error: Environment theorem undefined
+LaTeX Error: Environment split undefined
+LaTeX Error: Environment minipage* undefined
+LaTeX Error: Environment maplelatex undefined
+LaTeX Error: Environment mapleinput undefined
+LaTeX Error: Environment maplegroup undefined
+LaTeX Error: Environment flalign undefined
+LaTeX Error: Environment figure* undefined
+LaTeX Error: Environment comment undefined
+LaTeX Error: Environment biblio_lat undefined
+LaTeX Error: Environment align* undefined
+LaTeX Error: Environment align undefined
+LaTeX Error: Environment algorithm undefined
+LaTeX Error: Environment adjustbox undefined
+Underfull and overfull boxes
+Although these warnings are not errors we list them here for convenience:
+
+Understanding underfull and overfull box warning
