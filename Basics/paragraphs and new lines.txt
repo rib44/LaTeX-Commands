@@ -1,0 +1,65 @@
+Introduction
+This article introduces basic LaTeX paragraph formatting, including how to change text alignment. More detailed information, and further examples, can be found in the articles Text alignment and Paragraph formatting.
+
+A first example
+Let's start with an example which typesets two centred paragraphs by writing them inside a center environment. Note how a new paragraph is started by inserting a blank line between them--although that's a commonly-used method, it's not the only way to start a new paragraph.
+
+\begin{center}
+Example 1: The following paragraph (given in quotes) is an 
+example of centred alignment using the center environment. 
+
+``La\TeX{} is a document preparation system and document markup 
+language. \LaTeX{} uses the \TeX{} typesetting program for formatting 
+its output, and is itself written in the \TeX{} macro language. 
+\LaTeX{} is not the name of a particular (executable) typesetting program, but 
+refers to the suite of commands (\TeX{} macros) which form the markup 
+conventions used to typeset \LaTeX{} documents."
+\end{center}
+ Open this example in Overleaf
+
+This example produces the following output:
+
+LaTeX centred paragraph example
+
+Starting a new paragraph
+As noted above, one way to start a new paragraph is by inserting a blank line but the following code snippet shows an alternative solution which uses the \par command:
+
+This is text contained in the first paragraph. 
+This is text contained in the first paragraph. 
+This is text contained in the first paragraph.\par
+This is text contained in the second paragraph. 
+This is text contained in the second paragraph.
+This is text contained in the second paragraph.
+ Open this example in Overleaf
+
+This example produces the following output:
+
+Using the \par command to create a paragraph
+
+Paragraph alignment
+By default paragraphs in LaTeX are fully justified, i.e. flush with both the left and right margins. If you would like to typeset an unjustified paragraph you can use the flushleft or flushright environments.
+
+flushleft and flushright environments
+The next example demonstrates typesetting a paragraph within the flushleft and flushright environments--for an example of the center environment see the section A first example.
+
+\section*{A paragraph typeset flush left}
+
+\begin{flushleft}
+La\TeX{} is a document preparation system and document markup 
+language. \LaTeX{} uses the \TeX{} typesetting program for formatting 
+its output, and is itself written in the \TeX{} macro language. 
+\LaTeX{} is not the name of a particular (executable) typesetting program, but 
+refers to the suite of commands (\TeX{} macros) which form the markup 
+conventions used to typeset \LaTeX{} documents.
+\end{flushleft}
+
+\section*{A paragraph typeset flush right}
+
+\begin{flushright}
+La\TeX{} is a document preparation system and document markup 
+language. \LaTeX{} uses the \TeX{} typesetting program for formatting 
+its output, and is itself written in the \TeX{} macro language. 
+\LaTeX{} is not the name of a particular (executable) typesetting program, but 
+refers to the suite of commands (\TeX{} macros) which form the markup 
+conventions used to typeset \LaTeX{} documents.
+\end{flushright}
