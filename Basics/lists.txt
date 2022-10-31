@@ -1,0 +1,59 @@
+Introduction
+This article provides an introduction to typesetting, and customizing, various types of list in LaTeX:
+
+the itemize environment for creating a bulleted (unordered) list
+the enumerate environment for creating a numbered (ordered) list
+the description environment for creating a list of descriptions
+Typesetting lists is a large topic because LaTeX lists are extremely configurable, enabling creation of an enormous variety of list types and structures. We'll survey and demonstrate some methods you can use to configure and customize your lists.
+
+Examples of basic lists
+The itemize environment for bulleted (unordered) lists
+Unordered (bulleted) lists are produced by the itemize environment, where each list entry starts by using the \item command, which also generates the bullet symbol.
+
+Lists are easy to create:
+\begin{itemize}
+  \item List entries start with the \verb|\item| command.
+  \item Individual entries are indicated with a black dot, a so-called bullet.
+  \item The text in the entries may be of any length.
+\end{itemize}
+ Open this example in Overleaf.
+
+This example produces the following output:
+
+List1bOLV2.png
+
+The enumerate environment for numbered (ordered) lists
+Numbered (ordered) lists have the same syntax but use the enumerate environment: each entry must be preceded by the control sequence \item, which will automatically generate numbers to label the item. These numbers start at 1 with every use of the enumerate environment--note that this, default, LaTeX numbering behaviour can be changed/controlled via the enumitem package.
+
+Numbered (ordered) lists are easy to create:
+\begin{enumerate}
+  \item Items are numbered automatically.
+  \item The numbers start at 1 with each use of the \texttt{enumerate} environment.
+  \item Another entry in the list
+\end{enumerate}
+ Open this example in Overleaf.
+
+This example produces the following output:
+
+List2OLV2.png
+
+The description environment
+The following example demonstrates the description environment. The (optional) label for each entry is enclosed in square brackets after the \item command:
+
+\item[label text] Text of your description goes here...
+We also use the blindtext package to generate some dummy English text in the third entry. To obtain English we need to use the babel package with the language option [english]:
+
+\usepackage[english]{babel}
+Here is the example:
+
+\documentclass{article}
+\usepackage[english]{babel} % To obtain English text with the blindtext package
+\usepackage{blindtext}
+\begin{document}
+
+\begin{description}
+   \item This is an entry \textit{without} a label.
+   \item[Something short] A short one-line description.
+   \item[Something long] A much longer description. \blindtext[1]
+\end{description}
+\end{document}
